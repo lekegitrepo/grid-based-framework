@@ -7,7 +7,7 @@ This project is a clone of Pinterest's users page which was built with the grid 
 
 # Original Version
 
-<a href="#>Original Version</a>
+<a href="#">Original Version</a>
 
 # Built With:
 
