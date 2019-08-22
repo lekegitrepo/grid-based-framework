@@ -12,7 +12,7 @@ $cols: 12;
     }
 }
 
-$breakpoint: ('lg': 1200px, 'md': 950px, 'sm': 768px);
+$breakpoint: ('xlg': 1400px, 'lg': 1055px, 'md': 795px, 'sm': 534px);
 
 @each $key, $val in $breakpoint {
     @media all and (max-width: $val) {
