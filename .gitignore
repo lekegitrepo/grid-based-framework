@@ -1,1 +1,6 @@
 # Don't track content of these folders
+.sass-cache/
+
+# Compiled source #
+###################
+*.map
