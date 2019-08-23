@@ -1,4 +1,8 @@
-#grid > div {
+@import "reset";
+/* end of rest */
+
+/* grid framework layout */
+.grid > div {
     box-sizing: border-box;
     float: left;
 }
@@ -7,7 +11,7 @@ $cols: 12;
 
 @for $i from 1 through $cols {
     $equ: 100% / $i;
-    #grid.col-#{$i} > div {
+    .grid.col-#{$i} > div {
         width: $equ;
     }
 }
@@ -18,7 +22,7 @@ $breakpoint: ('xlg': 1400px, 'lg': 1055px, 'md': 795px, 'sm': 534px);
     @media all and (max-width: $val) {
         @for $i from 1 through $cols {
             $equ: 100% / $i;
-            #grid.col-#{$key}-#{$i} > div {
+            .grid.col-#{$key}-#{$i} > div {
                 width: $equ;
             }
         }
