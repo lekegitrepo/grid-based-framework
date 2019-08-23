@@ -1,0 +1,10 @@
+div figure {
+    margin: 0;
+    text-align: center;
+    width: 100%;
+
+ }
+ div figure img {
+     padding: 5px 5px;
+    width: 90%;
+ }
