@@ -1,5 +1,12 @@
 /* navigation bar */
+.container-nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+/* nav top */
 .nav-top {
+    align-items: center;
     display: flex;
     flex-direction: row;
     height: 60px;
@@ -43,12 +50,15 @@ input {
 .input-icon {
     position: relative; 
 }
+/* nav bottom */
 .nav-bottom {
+    align-items: center;
+    background: pink;
+    border-top: 1px solid grey;
     display: flex;
     flex-direction: row;
     height: 60px;
-    justify-content: left;
-    margin-left: 20%;
+    padding-left: 16%;
 }
 .nav-bottom i {
     font-size: 25px;
