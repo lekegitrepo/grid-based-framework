@@ -63,6 +63,46 @@ input {
 main {
 	margin-top: 20%;
 }
+.page-top {
+    background: #edff45;
+    display: flex;
+    flex-direction: row;
+    height: 180px;
+    justify-content: space-between;
+    margin: 0 auto 20px auto;
+    width: 70%;
+}
+.top-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.owner-details {
+    margin: 10px 0;
+}
+.owner-details p {
+    display: flex;
+    flex-direction: row;
+}
+.top-left ul {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+}
+.top-left ul li {
+    padding: 0 10px 0 0;
+}
+.top-right {
+    height: 120px;
+    width: 120px;
+}
+.top-right figure {
+    height: 60px;
+    width: 60px;
+}
+.fa-user-circle {
+    font-size: 115px;
+}
 .grid > div {
     height: auto;
 }
