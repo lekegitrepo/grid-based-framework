@@ -61,12 +61,9 @@ input {
 
 /* section photos */
 main {
-	background: #000;
-	height: 300px;
 	margin-top: 20%;
 }
 .grid > div {
-    
     height: auto;
 }
 
@@ -91,12 +88,12 @@ div {
 section {
 	padding: 0 5% 0 5%;
 }
-figure {
+.grid figure {
 	padding-top: 10px;
 	width: 100%;
 	text-align: center;
 }
- img {
+ .grid img {
     height: 240px;
     width: 240px;
 }
