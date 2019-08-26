@@ -145,6 +145,7 @@ main {
 .fa-user-circle {
     font-size: 115px;
 }
+/* section pic */
 .grid > div {
     height: auto;
 }
@@ -160,6 +161,11 @@ main {
 }
 .four{
     background-color: green;
+}
+.blank-space {
+    background: purple;
+    height:200px;
+    width: 50px;
 }
 .grid div {
 	align-items: center;
