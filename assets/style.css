@@ -56,7 +56,6 @@
     color: #a9a0a0;
 }
 
-
 .fa-search, .fa-circle, .fa-comment-dots, 
 .fa-bell, .fa-ellipsis-h, .fa-plus,
 .fa-pen, .fa-sign-out-alt {
@@ -123,10 +122,11 @@ input {
 }
 
 
-/* section photos */
+/* user information - top of the page */
 main {
-	margin-top: 20%;
+	margin-top: 15%;
 }
+
 .page-top {
     background: #edff45;
     display: flex;
@@ -166,7 +166,7 @@ main .nav-menu:hover {
 }
 div.name {
     color: #333;
-    font-size: 40px;
+    font-size: 35px;
 }
 a.foll {
     color: #333;
@@ -199,39 +199,29 @@ li#default {
 .fa-user-circle {
     font-size: 115px;
 }
+
 .grid > div {
     height: auto;
 }
-
+/* photos*/
+.photos {
+    margin: 0 3%;
+}
 .pic{
+    align-items: center;
     background-color: aqua;
-    padding: 0 10% 0 10%;
+    display: flex;
+    justify-content: center;
     min-width: 25%;
 }
-/* .two{
-    background-color: yellow;
-    padding: 0 10% 0 10%;
-    min-width: 25%;
 
-}
-.three {
-    background-color: pink;
-    padding: 0 10% 0 10%;
-    min-width: 25%;
-}
-.four{
-    background-color: green;
-    padding: 0 10% 0 10%;
-    min-width: 25%;    
-} */
 .grid div {
 	align-items: right;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 }
-section.grid {
-}
+
 .grid figure {
 	padding-top: 10px;
 	width: 100%;
