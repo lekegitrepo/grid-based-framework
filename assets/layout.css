@@ -52,7 +52,6 @@ table {
   float: left; }
 
 .grid.col-1 > div {
-<<<<<<< HEAD
   width: 100%; }
 
 .grid.col-2 > div {
@@ -87,8 +86,6 @@ table {
 
 .grid.col-12 > div {
   width: 8.33333%; }
-=======
-  width: 90%; }
 
 .grid.col-2 > div {
   width: 45%; }
@@ -122,14 +119,12 @@ table {
 
 .grid.col-12 > div {
   width: 7.5%; }
->>>>>>> 2300c140f140e5e2382efe47404e533091dbadd7
 
 @media all and (max-width: 1400px) {
   .grid {
     width: 1400px; }
 
   .grid.col-xlg-1 > div {
-<<<<<<< HEAD
     width: 100%; }
 
   .grid.col-xlg-2 > div {
@@ -164,8 +159,6 @@ table {
 
   .grid.col-xlg-12 > div {
     width: 8.33333%; } }
-=======
-    width: 90%; }
 
   .grid.col-xlg-2 > div {
     width: 45%; }
@@ -199,13 +192,11 @@ table {
 
   .grid.col-xlg-12 > div {
     width: 7.5%; } }
->>>>>>> 2300c140f140e5e2382efe47404e533091dbadd7
 @media all and (max-width: 1055px) {
   .grid {
     width: 1055px; }
 
   .grid.col-lg-1 > div {
-<<<<<<< HEAD
     width: 100%; }
 
   .grid.col-lg-2 > div {
@@ -240,8 +231,6 @@ table {
 
   .grid.col-lg-12 > div {
     width: 8.33333%; } }
-=======
-    width: 90%; }
 
   .grid.col-lg-2 > div {
     width: 45%; }
@@ -275,13 +264,11 @@ table {
 
   .grid.col-lg-12 > div {
     width: 7.5%; } }
->>>>>>> 2300c140f140e5e2382efe47404e533091dbadd7
 @media all and (max-width: 795px) {
   .grid {
     width: 795px; }
 
   .grid.col-md-1 > div {
-<<<<<<< HEAD
     width: 100%; }
 
   .grid.col-md-2 > div {
@@ -316,8 +303,6 @@ table {
 
   .grid.col-md-12 > div {
     width: 8.33333%; } }
-=======
-    width: 90%; }
 
   .grid.col-md-2 > div {
     width: 45%; }
@@ -351,13 +336,11 @@ table {
 
   .grid.col-md-12 > div {
     width: 7.5%; } }
->>>>>>> 2300c140f140e5e2382efe47404e533091dbadd7
 @media all and (max-width: 534px) {
   .grid {
     width: 534px; }
 
   .grid.col-sm-1 > div {
-<<<<<<< HEAD
     width: 100%; }
 
   .grid.col-sm-2 > div {
@@ -392,8 +375,6 @@ table {
 
   .grid.col-sm-12 > div {
     width: 8.33333%; } }
-=======
-    width: 90%; }
 
   .grid.col-sm-2 > div {
     width: 45%; }
@@ -427,6 +408,5 @@ table {
 
   .grid.col-sm-12 > div {
     width: 7.5%; } }
->>>>>>> 2300c140f140e5e2382efe47404e533091dbadd7
 
 /*# sourceMappingURL=layout.css.map */
