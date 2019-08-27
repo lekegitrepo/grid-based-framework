@@ -51,10 +51,31 @@ input {
     border-radius: 10px;
     height: 32px;
     padding-left: 60px;
-    width: 725px;
+    width: 500px;
 }
 .input-icon {
     position: relative; 
+}
+.user-logo {
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+}
+.user-logo i {
+    padding-right: 5px;
+}
+.nav-menu {
+    align-items: center;
+    background: #223ed2;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+}
+.home {
+    width: 73px;
+}
+.following {
+    width: 102px;
 }
 /* nav bottom */
 .nav-bottom {
