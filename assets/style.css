@@ -47,13 +47,14 @@
 }
 .search {
     font-size: 16px;
-    color: #333;
+    color: #a9a0a0;
     background: #efefef;
 }
 
 .home, .following {
     font-size: 16px;
-    color: #333;}
+    color: #a9a0a0;
+}
 
 
 .fa-search, .fa-circle, .fa-comment-dots, 
@@ -70,8 +71,10 @@
 input {
     background-color: rgb(220,220,220);
     border-radius: 10px;
-    height: 32px;
+    border: 0;
+    height: 38px;
     padding-left: 60px;
+    outline: none;
     width: 500px;
 }
 .input-icon {
@@ -139,6 +142,20 @@ main {
     justify-content: space-between;
     padding-left: 20px;
 }
+main .nav-menu {
+    align-items: center;
+    border-radius: 10px;
+    color: #a9a0a0;
+    height: 40px;
+    justify-content: center;
+    text-align: center;
+    width: 64px;
+}
+main .nav-menu:hover {
+    color: #333;
+    background-color: #efefef;
+    text-decoration: underline;
+}
 .owner-details {
     margin: 10px 0;
 }
@@ -147,6 +164,18 @@ main {
     flex-direction: row;
     margin-top: 10px;
 }
+div.name {
+    color: #333;
+    font-size: 40px;
+}
+a.foll {
+    color: #333;
+    padding-left: 5px;
+    text-decoration: none;
+}
+a.foll:hover {
+    text-decoration: underline;
+}
 .top-left ul {
     display: flex;
     flex-direction: row;
@@ -154,6 +183,10 @@ main {
 }
 .top-left ul li {
     padding: 0 10px 0 0;
+}
+li#default {
+    color: #333;
+    background-color: rgb(220,220,220);
 }
 .top-right {
     height: 120px;
@@ -223,15 +256,21 @@ button {
 }
 .plus {
     align-items: center;
+    background: #fff;
     border-radius: 100%;
     display: flex;
     justify-content: center;
     height: 30px;
     width: 30px;
 }
+.plus .fa-plus {
+    color: #333;
+}
 .q-mark {
     align-items: center;
+    background: #fff;
     border-radius: 100%;
+    color: #333;
     display: flex;
     justify-content: center;
     height: 30px;
@@ -239,6 +278,6 @@ button {
     width: 30px;
 }
 .q-mark:hover, .plus:hover {
-    background: #333;
+    background: #efefef;
     cursor: pointer;
 }
