@@ -7,14 +7,12 @@
     float: left;
 }
 
-$gutter: 24px;
 
 $cols: 12;
 
 @for $i from 1 through $cols {
     $equ: 90% / $i;
     .grid.col-#{$i} > div {
-        margin-left: $gutter;
         width: $equ;
     }
 }
@@ -26,7 +24,6 @@ $breakpoint: ('xlg': 1400px, 'lg': 1055px, 'md': 795px, 'sm': 534px);
         @for $i from 1 through $cols {
             $equ: 90% / $i;
             .grid.col-#{$key}-#{$i} > div {
-                margin-left: $gutter;
                 width: $equ;
             }
         }
