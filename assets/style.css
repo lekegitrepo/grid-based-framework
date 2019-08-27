@@ -4,6 +4,7 @@
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 10;
 }
 /* nav top */
 .nav-top {
@@ -37,7 +38,7 @@
     left:3%;
 }
 .search, .home, .following, 
-.user, .name, .foll, .nav-menu {
+.user, .name, .foll, .nav-menu, .text {
     font-family: -apple-system, BlinkMacSystemFont, 
     "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell,
     "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica,
@@ -124,7 +125,7 @@ input {
 
 /* user information - top of the page */
 main {
-	margin-top: 15%;
+    margin-top: 15%;
 }
 
 .page-top {
@@ -214,13 +215,29 @@ li#default {
     justify-content: center;
     min-width: 25%;
 }
+.image-container {
+    position: relative;
+    margin-bottom: 50px;
+}
+.text {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    color: #fff;
+    font-weight: bold;
+}
 
 .grid div {
-	align-items: right;
+    align-items: right;
+    border-radius: 10px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 }
+
+.grid div:hover {
+    background-color: rgb(247, 243, 243);
+ }
 
 .grid figure {
 	padding-top: 10px;
@@ -228,15 +245,25 @@ li#default {
 	text-align: center;
 }
  .grid img {
+    border-radius: 10px;
     height: 240px;
     width: 240px;
 }
+.grid img:hover {
+    opacity: 0.9;
+}
 
 button {
-    background-color: brown;
-    border-radius: 2px;
+    background-color: rgb(220,220,220);
+    border: 0;
+    border-radius: 10px;
+    color: #333;
+    font-weight: bold;
     height: 40px;
     width: 240px;
+}
+button:hover {
+    background-color: #a9a0a0;
 }
 
 .bottom-icon {
