@@ -76,18 +76,20 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding-left: 20px;
 }
 .owner-details {
     margin: 10px 0;
 }
-.owner-details p {
+.owner-details .follows {
     display: flex;
     flex-direction: row;
+    margin-top: 10px;
 }
 .top-left ul {
     display: flex;
     flex-direction: row;
-    margin-top: 5%;
+    padding-bottom: 12px;
 }
 .top-left ul li {
     padding: 0 10px 0 0;
@@ -119,13 +121,13 @@ main {
 .four{
     background-color: green;
 }
-div {
+.grid div {
 	align-items: center;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 }
-section {
+section.grid {
 	padding: 0 5% 0 5%;
 }
 .grid figure {
