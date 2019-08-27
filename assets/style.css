@@ -157,3 +157,12 @@ button {
     height: 40px;
     width: 240px;
 }
+
+.bottom-icon {
+    bottom: 20px;
+    position: fixed;
+    right: 10px;
+}
+.q-mark {
+    margin-top: 12px;
+}
