@@ -53,21 +53,21 @@
 .nav-menu,
 .text {
   font-family: "Segoe UI",
-  Roboto,
-  Oxygen-Sans,
-  Ubuntu,
-  Cantarell,
-  "Fira Sans",
-  "Droid Sans",
-  "Helvetica Neue",
-  Helvetica,
-  "Hiragino Kaku Gothic Pro",
-  Meiryo,
-  Arial,
-  sans-serif,
-  "Apple Color Emoji",
-  "Segoe UI Emoji",
-  "Segoe UI Symbol";
+    Roboto,
+    Oxygen-Sans,
+    Ubuntu,
+    Cantarell,
+    "Fira Sans",
+    "Droid Sans",
+    "Helvetica Neue",
+    Helvetica,
+    "Hiragino Kaku Gothic Pro",
+    Meiryo,
+    Arial,
+    sans-serif,
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol";
   font-weight: bold;
 }
 
@@ -147,6 +147,16 @@ input {
   width: 102px;
 }
 
+main .nav-menu {
+  align-items: center;
+  border-radius: 10px;
+  color: #a9a0a0;
+  height: 40px;
+  justify-content: center;
+  text-align: center;
+  width: 64px;
+}
+
 .nav-menu:hover {
   background-color: rgb(220, 220, 220);
 }
@@ -190,16 +200,6 @@ main {
   flex-direction: column;
   justify-content: space-between;
   padding-left: 20px;
-}
-
-main .nav-menu {
-  align-items: center;
-  border-radius: 10px;
-  color: #a9a0a0;
-  height: 40px;
-  justify-content: center;
-  text-align: center;
-  width: 64px;
 }
 
 main .nav-menu:hover {
@@ -266,7 +266,7 @@ li#default {
   height: auto;
 }
 
-/* photos*/
+/* photos */
 .photos {
   margin: 0 3%;
 }
@@ -313,6 +313,7 @@ li#default {
   height: 240px;
   width: 240px;
 }
+
 .grid img:hover {
   opacity: 0.9;
 }
@@ -378,7 +379,7 @@ button.red-btn:hover {
   cursor: pointer;
 }
 
-/*nav media query*/
+/* nav media query */
 @media all and (max-width: 795px) {
   .home,
   .following {
