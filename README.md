@@ -3,7 +3,7 @@ This project is a clone of Pinterest's users page which was built with the grid 
 
 # GitHub Page
 
-<a href="#"> Pinterest Clone / Live Version</a>
+<a href="https://raw.githack.com/lekegitrepo/grid-based-framework/main-content/index.html"> Pinterest Clone / Live Version</a>
 
 # Original Version
 
