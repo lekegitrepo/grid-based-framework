@@ -2,4 +2,4 @@ linters:
   stylelint:
     config: 'stylelint.config.js'
     csslint:
-       ignore: 'box-model,box-sizing,important,ids,known-properties,order-alphabetical'
+       ignore: 'box-model,box-sizing,important,ids,known-properties,order-alphabetical,@for,@each'

@@ -27,7 +27,7 @@ $breakpoint: (
   @media all and (max-width: $val) {
     @for $i from 1 through $cols {
       $equ: 100% / $i;
-      
+
       .grid.col-#{$key}-#{$i} > div {
         width: $equ;
       }
