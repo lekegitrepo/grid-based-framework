@@ -347,7 +347,22 @@ button.red-btn:hover {
 
     main {
         margin-top: 30%;
-    }    
+    }
+
+    .page-top {
+        display: flex;
+        flex-direction: column-reverse;
+        height: 230px;
+        justify-content: space-around;
+    }
+
+    .top-left ul li {
+        padding-right: 0;
+    }
+
+    .top-right figure {
+        margin-left: 100%;
+    }
     
 }
 /*.hidden { to be used to hide section header
