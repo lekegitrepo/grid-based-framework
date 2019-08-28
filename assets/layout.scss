@@ -2,28 +2,33 @@
 
 /* grid framework layout */
 .grid > div {
-    box-sizing: border-box;
-    float: left;
+  box-sizing: border-box;
+  float: left;
 }
 
 $cols: 12;
 
 @for $i from 1 through $cols {
-    $equ: 100% / $i;
-    .grid.col-#{$i} > div {
-        width: $equ;
-    }
+  $equ: 100% / $i;
+  .grid.col-#{$i} > div {
+    width: $equ;
+  }
 }
 
-$breakpoint: ('xlg': 1400px, 'lg': 1055px, 'md': 795px, 'sm': 534px);
+$breakpoint: (
+  "xlg": 1400px,
+  "lg": 1055px,
+  "md": 795px,
+  "sm": 534px
+);
 
 @each $key, $val in $breakpoint {
-    @media all and (max-width: $val) {
-        @for $i from 1 through $cols {
-            $equ: 100% / $i;
-            .grid.col-#{$key}-#{$i} > div {
-                width: $equ;
-            }
-        }
+  @media all and (max-width: $val) {
+    @for $i from 1 through $cols {
+      $equ: 100% / $i;
+      .grid.col-#{$key}-#{$i} > div {
+        width: $equ;
+      }
     }
+  }
 }
