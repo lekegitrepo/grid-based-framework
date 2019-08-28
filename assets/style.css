@@ -16,7 +16,7 @@
     padding-top: 10px;
 }
 
-.hover-icon {
+.hover-icon, .hover-logo {
     align-items: center;
     border-radius: 100%;
     display: flex;
@@ -24,7 +24,7 @@
     justify-content: center;
     width: 50px;
 }
-.hover-icon:hover {
+.hover-icon:hover, .hover-logo:hover {
     background-color: rgb(220,220,220);  
 
 }
@@ -70,6 +70,7 @@
 }
 .hidden-icon {
     display: none;
+    padding-top: 30px;
 }
 .input-icon {
     position: relative;
@@ -324,26 +325,29 @@ button.red-btn:hover {
         padding-left: 8px;
     }
 
+    main {
+        margin-top: 25%;
+    }
+
     .text {
         left: 30%;
     }
 }
 @media all and (max-width: 534px) {
-    .home, .following, 
-    .user, .fa-circle, .fa-comment-dots, 
-    .fa-bell, .fa-ellipsis-h,
-    .fa-user-friends, .bar {
+    .nav-top .hover-icon, .user-logo, .bar {
         display: none;
     }
     .input-icon {
-        margin-left: 25px;
-        width: 70em;
+        width: 80%;
     }
     .hover-logo {
         margin-left: 20px;
         width: 50px;
     }
-    
+
+    main {
+        margin-top: 30%;
+    }    
     
 }
 /*.hidden { to be used to hide section header
