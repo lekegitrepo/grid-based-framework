@@ -339,7 +339,6 @@ table {
 }
 
 @media all and (max-width: 534px) {
-
   .grid.col-sm-1 > div {
     width: 100%;
   }
