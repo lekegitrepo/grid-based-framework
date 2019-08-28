@@ -1,3 +1,4 @@
+
 /* navigation bar */
 .container-nav {
   background: #fff;
@@ -6,6 +7,7 @@
   width: 100%;
   z-index: 10;
 }
+
 /* nav top */
 .nav-top {
   align-items: center;
@@ -25,19 +27,23 @@
   justify-content: center;
   width: 50px;
 }
+
 .hover-icon:hover,
 .hover-logo:hover {
   background-color: rgb(220, 220, 220);
 }
+
 .fa-pinterest {
   color: #e60023;
   font-size: 30px;
 }
+
 .fa-search {
   position: absolute;
   top: 20%;
   left: 3%;
 }
+
 .search,
 .home,
 .following,
@@ -46,12 +52,26 @@
 .foll,
 .nav-menu,
 .text {
-  font-family: "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Fira Sans",
-    "Droid Sans", "Helvetica Neue", Helvetica, "Hiragino Kaku Gothic Pro",
-    Meiryo, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+  font-family:
+    "Segoe UI",
+    Roboto,
+    Oxygen-Sans,
+    Ubuntu,
+    Cantarell,
+    "Fira Sans",
+    "Droid Sans",
+    "Helvetica Neue",
+    Helvetica,
+    "Hiragino Kaku Gothic Pro",
+    Meiryo,
+    Arial,
+    sans-serif,
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
     "Segoe UI Symbol";
   font-weight: bold;
 }
+
 .search {
   background: #efefef;
   color: #a9a0a0;
@@ -80,14 +100,17 @@
   justify-content: center;
   opacity: 97%;
 }
+
 .hidden-icon {
   display: none;
   padding-top: 30px;
 }
+
 .input-icon {
   position: relative;
   width: 35%;
 }
+
 input {
   background-color: rgb(220, 220, 220);
   border-radius: 10px;
@@ -104,9 +127,11 @@ input {
   justify-content: space-between;
   width: 120px;
 }
+
 .user-logo i {
   padding-right: 5px;
 }
+
 .nav-menu {
   align-items: center;
   border-radius: 30px;
@@ -114,15 +139,29 @@ input {
   height: 40px;
   justify-content: center;
 }
+
 .home {
   width: 73px;
 }
+
 .following {
   width: 102px;
 }
+
+main .nav-menu {
+  align-items: center;
+  border-radius: 10px;
+  color: #a9a0a0;
+  height: 40px;
+  justify-content: center;
+  text-align: center;
+  width: 64px;
+}
+
 .nav-menu:hover {
   background-color: rgb(220, 220, 220);
 }
+
 /* nav bottom */
 .nav-bottom {
   align-items: center;
@@ -133,10 +172,12 @@ input {
   height: 60px;
   padding-left: 16%;
 }
+
 .nav-bottom i {
   font-size: 25px;
   padding: 0 15px;
 }
+
 .fa-sign-out-alt {
   transform: rotate(-90deg);
 }
@@ -154,66 +195,70 @@ main {
   margin: 0 auto 20px auto;
   width: 70%;
 }
+
 .top-left {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding-left: 20px;
 }
-main .nav-menu {
-  align-items: center;
-  border-radius: 10px;
-  color: #a9a0a0;
-  height: 40px;
-  justify-content: center;
-  text-align: center;
-  width: 64px;
-}
+
 main .nav-menu:hover {
   background-color: #efefef;
   color: #333;
   text-decoration: underline;
 }
+
 .owner-details {
   margin: 10px 0;
 }
+
 .owner-details .follows {
   display: flex;
   flex-direction: row;
   margin-top: 10px;
 }
+
 div.name {
   color: #333;
   font-size: 35px;
 }
+
 a.foll {
   color: #333;
   padding-left: 5px;
   text-decoration: none;
 }
+
 a.foll:hover {
   text-decoration: underline;
 }
+
 .top-left ul {
   display: flex;
   flex-direction: row;
   padding-bottom: 12px;
 }
+
 .top-left ul li {
   padding: 0 10px 0 0;
 }
+
 li#default {
   background-color: rgb(220, 220, 220);
   color: #333;
 }
+
 .top-right {
   height: 120px;
   width: 120px;
 }
+
 .top-right figure {
   height: 60px;
   width: 60px;
 }
+
 .fa-user-circle {
   font-size: 115px;
 }
@@ -221,20 +266,24 @@ li#default {
 .grid > div {
   height: auto;
 }
-/* photos*/
+
+/* photos */
 .photos {
   margin: 0 3%;
 }
+
 .pic {
   align-items: center;
   display: flex;
   justify-content: center;
   min-width: 25%;
 }
+
 .image-container {
   margin-bottom: 50px;
   position: relative;
 }
+
 .text {
   bottom: 50px;
   color: #fff;
@@ -259,11 +308,13 @@ li#default {
   text-align: center;
   width: 100%;
 }
+
 .grid img {
   border-radius: 10px;
   height: 240px;
   width: 240px;
 }
+
 .grid img:hover {
   opacity: 0.9;
 }
@@ -277,6 +328,7 @@ button {
   height: 40px;
   width: 240px;
 }
+
 .red-btn {
   background: #e60023;
   color: #fff;
@@ -295,6 +347,7 @@ button.red-btn:hover {
   position: fixed;
   right: 10px;
 }
+
 .plus {
   align-items: center;
   background: #fff;
@@ -304,9 +357,11 @@ button.red-btn:hover {
   height: 30px;
   width: 30px;
 }
+
 .plus .fa-plus {
   color: #333;
 }
+
 .q-mark {
   align-items: center;
   background: #fff;
@@ -318,12 +373,14 @@ button.red-btn:hover {
   margin-top: 12px;
   width: 30px;
 }
+
 .q-mark:hover,
 .plus:hover {
   background: #efefef;
   cursor: pointer;
 }
-/*nav media query*/
+
+/* nav media query */
 @media all and (max-width: 795px) {
   .home,
   .following {
@@ -343,15 +400,18 @@ button.red-btn:hover {
     left: 30%;
   }
 }
+
 @media all and (max-width: 534px) {
   .nav-top .hover-icon,
   .user-logo,
   .bar {
     display: none;
   }
+
   .input-icon {
     width: 80%;
   }
+
   .hover-logo {
     margin-left: 20px;
     width: 50px;
@@ -377,6 +437,7 @@ button.red-btn:hover {
     padding-right: 0;
   }
 }
+
 .hidden {
   position: absolute;
   clip: rect(1px, 1px, 1px, 1px);

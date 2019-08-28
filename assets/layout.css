@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -88,7 +88,7 @@ video {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
+  font-family: inherit;
   vertical-align: baseline;
 }
 
@@ -121,10 +121,10 @@ q {
   quotes: none;
 }
 
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
   content: "";
   content: none;
 }
@@ -237,6 +237,7 @@ table {
     width: 8.33333%;
   }
 }
+
 @media all and (max-width: 1055px) {
   .grid.col-lg-1 > div {
     width: 100%;
@@ -286,6 +287,7 @@ table {
     width: 8.33333%;
   }
 }
+
 @media all and (max-width: 795px) {
   .grid.col-md-1 > div {
     width: 100%;
@@ -335,6 +337,7 @@ table {
     width: 8.33333%;
   }
 }
+
 @media all and (max-width: 534px) {
   .grid.col-sm-1 > div {
     width: 100%;
@@ -385,4 +388,4 @@ table {
   }
 }
 
-/*# sourceMappingURL=layout.css.map */
+/* # sourceMappingURL=layout.css.map */
