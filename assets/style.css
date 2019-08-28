@@ -328,7 +328,24 @@ button.red-btn:hover {
         left: 30%;
     }
 }
-
+@media all and (max-width: 534px) {
+    .home, .following, 
+    .user, .fa-circle, .fa-comment-dots, 
+    .fa-bell, .fa-ellipsis-h,
+    .fa-user-friends, .bar {
+        display: none;
+    }
+    .input-icon {
+        margin-left: 25px;
+        width: 70em;
+    }
+    .hover-logo {
+        margin-left: 20px;
+        width: 50px;
+    }
+    
+    
+}
 /*.hidden { to be used to hide section header
     position: absolute;
     clip: rect(1px 1px 1px 1px);  IE6 & 7
