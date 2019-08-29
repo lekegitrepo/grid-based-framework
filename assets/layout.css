@@ -140,6 +140,24 @@ table {
 .padding-auto {
   padding: auto; }
 
+.float-right {
+  float: right; }
+
+.float-left {
+  float: left; }
+
+.clear {
+  clear: both; }
+
+.absolute {
+  position: absolute; }
+
+.relative {
+  position: relative; }
+
+.fixed {
+  position: fixed; }
+
 .margin-xlg-top {
   margin-top: 1rem; }
 

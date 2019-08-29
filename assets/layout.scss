@@ -43,6 +43,30 @@ $sides: (
   padding: auto;
 }
 
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+.clear {
+  clear: both;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.fixed {
+  position: fixed;
+}
+
 @each $side in $sides {
   @each $key, $val in $space-breakpoint {
       .margin-#{$key}-#{$side} {
