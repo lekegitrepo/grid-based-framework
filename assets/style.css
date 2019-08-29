@@ -1,7 +1,5 @@
-
 /* navigation bar */
 .container-nav {
-  background: #fff;
   position: fixed;
   top: 0;
   width: 100%;
@@ -52,36 +50,21 @@
 .foll,
 .nav-menu,
 .text {
-  font-family:
-    "Segoe UI",
-    Roboto,
-    Oxygen-Sans,
-    Ubuntu,
-    Cantarell,
-    "Fira Sans",
-    "Droid Sans",
-    "Helvetica Neue",
-    Helvetica,
-    "Hiragino Kaku Gothic Pro",
-    Meiryo,
-    Arial,
-    sans-serif,
-    "Apple Color Emoji",
-    "Segoe UI Emoji",
-    "Segoe UI Symbol";
   font-weight: bold;
 }
 
 .search {
   background: #efefef;
-  color: #a9a0a0;
   font-size: 16px;
 }
 
 .home,
 .following {
-  color: #a9a0a0;
   font-size: 16px;
+}
+
+.foll {
+  font-size: 13px;
 }
 
 .fa-search,
@@ -151,21 +134,19 @@ input {
 main .nav-menu {
   align-items: center;
   border-radius: 10px;
-  color: #a9a0a0;
   height: 40px;
   justify-content: center;
   text-align: center;
   width: 64px;
 }
 
-.nav-menu:hover {
+.nav-top .nav-menu:hover {
   background-color: rgb(220, 220, 220);
 }
 
 /* nav bottom */
 .nav-bottom {
   align-items: center;
-  background: #fff;
   border-top: 1px solid rgb(220, 220, 220);
   display: flex;
   flex-direction: row;
@@ -204,7 +185,6 @@ main {
 }
 
 main .nav-menu:hover {
-  background-color: #efefef;
   color: #333;
   text-decoration: underline;
 }
@@ -220,12 +200,10 @@ main .nav-menu:hover {
 }
 
 div.name {
-  color: #333;
   font-size: 35px;
 }
 
 a.foll {
-  color: #333;
   padding-left: 5px;
   text-decoration: none;
 }
@@ -246,7 +224,6 @@ a.foll:hover {
 
 li#default {
   background-color: rgb(220, 220, 220);
-  color: #333;
 }
 
 .top-right {
@@ -286,7 +263,6 @@ li#default {
 
 .text {
   bottom: 50px;
-  color: #fff;
   font-weight: bold;
   left: 20%;
   position: absolute;
@@ -323,7 +299,6 @@ button {
   background-color: rgb(220, 220, 220);
   border: 0;
   border-radius: 10px;
-  color: #333;
   font-weight: bold;
   height: 40px;
   width: 240px;
@@ -331,7 +306,6 @@ button {
 
 .red-btn {
   background: #e60023;
-  color: #fff;
 }
 
 button:hover {
@@ -350,7 +324,6 @@ button.red-btn:hover {
 
 .plus {
   align-items: center;
-  background: #fff;
   border-radius: 100%;
   display: flex;
   justify-content: center;
@@ -358,15 +331,13 @@ button.red-btn:hover {
   width: 30px;
 }
 
-.plus .fa-plus {
-  color: #333;
+.plus-b {
+  color: #333 !important;
 }
 
 .q-mark {
   align-items: center;
-  background: #fff;
   border-radius: 100%;
-  color: #333;
   display: flex;
   justify-content: center;
   height: 30px;

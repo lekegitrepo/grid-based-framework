@@ -34,3 +34,48 @@ $breakpoint: (
     }
   }
 }
+/* styles framework */
+$white-background: #fff;
+
+.background-w {
+  background: $white-background;
+}
+
+$fonts: "Segoe UI",
+Roboto,
+Oxygen-Sans,
+Ubuntu,
+Cantarell,
+"Fira Sans",
+"Droid Sans",
+"Helvetica Neue",
+Helvetica,
+"Hiragino Kaku Gothic Pro",
+Meiryo,
+Arial,
+sans-serif,
+"Apple Color Emoji",
+"Segoe UI Emoji",
+"Segoe UI Symbol";
+
+.font-name {
+  font-family: $fonts;
+} 
+
+$color-l-grey-text: #a9a0a0;
+
+.light-grey {
+  color: $color-l-grey-text;
+}
+
+$color-b-grey-text : #333;
+
+.strong-grey {
+  color: $color-b-grey-text;
+}
+
+$color-white-txt: #fff;
+
+.color-white {
+  color: $color-white-txt;
+}
