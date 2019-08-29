@@ -67,6 +67,48 @@ $sides: (
   position: fixed;
 }
 
+.flex-display {
+  display: flex;
+}
+
+.display-none {
+  display: none;
+}
+
+.display-hidden {
+  display: hidden;
+}
+
+.v-align-top {
+  display: flex;
+  align-items: flex-start;
+}
+
+.v-align-center {
+  display: flex;
+  align-items: center;
+}
+
+.v-align-bottom {
+  display: flex;
+  align-items: flex-end;
+}
+
+.h-align-left {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.h-align-center {
+  display: flex;
+  justify-content: center;
+}
+
+.h-align-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
 @each $side in $sides {
   @each $key, $val in $space-breakpoint {
       .margin-#{$key}-#{$side} {
@@ -104,6 +146,10 @@ $sides: (
 
 @each $key, $val in $breakpoint {
   @media all and (max-width: $val) {
+    .display-#{$key}-#{'none'} {
+      display: none;
+    }
+
     @for $i from 1 through $cols {
       $equ: 100% / $i;
 
