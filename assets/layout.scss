@@ -109,6 +109,54 @@ $sides: (
   justify-content: flex-end;
 }
 
+.text-align-left {
+  text-align: left;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.text-align-right {
+  text-align: right;
+}
+
+.font-size-xlg {
+  font-size: 20em;
+}
+
+.font-size-lg {
+  font-size: 15em;
+}
+
+.font-size-md {
+  font-size: 10em;
+}
+
+.font-size-smd {
+  font-size: 5em;
+}
+
+.font-size-sm {
+  font-size: 2em;
+}
+
+.font-size-xm {
+  font-size: 0.5em;
+}
+
+.font-weight-bold {
+  font-weight: bolder;
+}
+
+.font-weight-md {
+  font-weight: bold;
+}
+
+.font-weight-normal {
+  font-weight: normal;
+}
+
 @each $side in $sides {
   @each $key, $val in $space-breakpoint {
       .margin-#{$key}-#{$side} {

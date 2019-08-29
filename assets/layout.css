@@ -167,6 +167,57 @@ table {
 .display-hidden {
   display: hidden; }
 
+.v-align-top {
+  display: flex;
+  align-items: flex-start; }
+
+.v-align-center {
+  display: flex;
+  align-items: center; }
+
+.v-align-bottom {
+  display: flex;
+  align-items: flex-end; }
+
+.h-align-left {
+  display: flex;
+  justify-content: flex-start; }
+
+.h-align-center {
+  display: flex;
+  justify-content: center; }
+
+.h-align-right {
+  display: flex;
+  justify-content: flex-end; }
+
+.text-align-left {
+  text-align: left; }
+
+.text-align-center {
+  text-align: center; }
+
+.text-align-right {
+  text-align: right; }
+
+.font-size-xlg {
+  font-size: 20em; }
+
+.font-size-lg {
+  font-size: 15em; }
+
+.font-size-md {
+  font-size: 10em; }
+
+.font-size-smd {
+  font-size: 5em; }
+
+.font-size-sm {
+  font-size: 2em; }
+
+.font-size-xm {
+  font-size: 0.5em; }
+
 .margin-xlg-top {
   margin-top: 1rem; }
 
