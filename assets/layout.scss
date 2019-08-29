@@ -187,6 +187,7 @@ $sides: ("top", "bottom", "left", "right");
       margin-#{$side}: $margin / $val;
     }
   }
+  
   .margin-#{$side} {
     margin-#{$side}: auto;
   }
@@ -198,6 +199,7 @@ $sides: ("top", "bottom", "left", "right");
       padding-#{$side}: $padding / $val;
     }
   }
+
   .padding-#{$side} {
     padding-#{$side}: auto;
   }
