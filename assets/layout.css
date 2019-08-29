@@ -128,6 +128,138 @@ table {
   border-spacing: 0; }
 
 /* grid framework layout */
+.margin {
+  margin: 1rem; }
+
+.margin-auto {
+  margin: auto; }
+
+.padding {
+  padding: 1rem; }
+
+.padding-auto {
+  padding: auto; }
+
+.margin-xlg-top {
+  margin-top: 1rem; }
+
+.margin-lg-top {
+  margin-top: 0.5rem; }
+
+.margin-md-top {
+  margin-top: 0.33333rem; }
+
+.margin-sm-top {
+  margin-top: 0.25rem; }
+
+.margin-top {
+  margin-top: auto; }
+
+.margin-xlg-bottom {
+  margin-bottom: 1rem; }
+
+.margin-lg-bottom {
+  margin-bottom: 0.5rem; }
+
+.margin-md-bottom {
+  margin-bottom: 0.33333rem; }
+
+.margin-sm-bottom {
+  margin-bottom: 0.25rem; }
+
+.margin-bottom {
+  margin-bottom: auto; }
+
+.margin-xlg-left {
+  margin-left: 1rem; }
+
+.margin-lg-left {
+  margin-left: 0.5rem; }
+
+.margin-md-left {
+  margin-left: 0.33333rem; }
+
+.margin-sm-left {
+  margin-left: 0.25rem; }
+
+.margin-left {
+  margin-left: auto; }
+
+.margin-xlg-right {
+  margin-right: 1rem; }
+
+.margin-lg-right {
+  margin-right: 0.5rem; }
+
+.margin-md-right {
+  margin-right: 0.33333rem; }
+
+.margin-sm-right {
+  margin-right: 0.25rem; }
+
+.margin-right {
+  margin-right: auto; }
+
+.padding-xlg-top {
+  padding-top: 1rem; }
+
+.padding-lg-top {
+  padding-top: 0.5rem; }
+
+.padding-md-top {
+  padding-top: 0.33333rem; }
+
+.padding-sm-top {
+  padding-top: 0.25rem; }
+
+.padding-top {
+  padding-top: auto; }
+
+.padding-xlg-bottom {
+  padding-bottom: 1rem; }
+
+.padding-lg-bottom {
+  padding-bottom: 0.5rem; }
+
+.padding-md-bottom {
+  padding-bottom: 0.33333rem; }
+
+.padding-sm-bottom {
+  padding-bottom: 0.25rem; }
+
+.padding-bottom {
+  padding-bottom: auto; }
+
+.padding-xlg-left {
+  padding-left: 1rem; }
+
+.padding-lg-left {
+  padding-left: 0.5rem; }
+
+.padding-md-left {
+  padding-left: 0.33333rem; }
+
+.padding-sm-left {
+  padding-left: 0.25rem; }
+
+.padding-left {
+  padding-left: auto; }
+
+.padding-xlg-right {
+  padding-right: 1rem; }
+
+.padding-lg-right {
+  padding-right: 0.5rem; }
+
+.padding-md-right {
+  padding-right: 0.33333rem; }
+
+.padding-sm-right {
+  padding-right: 0.25rem; }
+
+.padding-right {
+  padding-right: auto; }
+
 .grid > div {
   box-sizing: border-box;
   float: left; }

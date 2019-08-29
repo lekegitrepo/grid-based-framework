@@ -1,12 +1,74 @@
 @import "reset";
 
 /* grid framework layout */
+
+$cols: 12;
+$margin: 1rem;
+$padding: 1rem;
+
+$breakpoint: (
+  "xlg": 1400px,
+  "lg": 1055px,
+  "md": 795px,
+  "sm": 534px
+);
+
+$space-breakpoint: (
+  "xlg": 1,
+  "lg": 2,
+  "md": 3,
+  "sm": 4
+);
+
+$sides: (
+  "top",
+  "bottom",
+  "left",
+  "right"
+);
+
+.margin {
+  margin: $margin;
+}
+
+.margin-auto {
+  margin: auto;
+}
+
+.padding {
+  padding: $padding;
+}
+
+.padding-auto {
+  padding: auto;
+}
+
+@each $side in $sides {
+  @each $key, $val in $space-breakpoint {
+      .margin-#{$key}-#{$side} {
+        margin-#{$side}: $margin / $val;
+      }
+  }
+  .margin-#{$side} {
+    margin-#{$side}: auto;
+  }
+}
+
+@each $side in $sides {
+  @each $key, $val in $space-breakpoint {
+      .padding-#{$key}-#{$side} {
+        padding-#{$side}: $padding / $val;
+      }
+  }
+  .padding-#{$side} {
+    padding-#{$side}: auto;
+  }
+}
+
 .grid > div {
   box-sizing: border-box;
   float: left;
 }
-
-$cols: 12;
 
 @for $i from 1 through $cols {
   $equ: 100% / $i;
@@ -15,13 +77,6 @@ $cols: 12;
     width: $equ;
   }
 }
-
-$breakpoint: (
-  "xlg": 1400px,
-  "lg": 1055px,
-  "md": 795px,
-  "sm": 534px
-);
 
 @each $key, $val in $breakpoint {
   @media all and (max-width: $val) {
