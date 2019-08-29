@@ -218,6 +218,141 @@ table {
 .font-size-xm {
   font-size: 0.5em; }
 
+.font-weight-bold {
+  font-weight: bolder; }
+
+.font-weight-md {
+  font-weight: bold; }
+
+.font-weight-normal {
+  font-weight: normal; }
+
+.border-radius {
+  border-radius: 5px; }
+
+.border-top-xlg {
+  border-top: 1rem; }
+
+.border-radius-xlg {
+  border-radius: 1rem; }
+
+.border-top-lg {
+  border-top: 0.5rem; }
+
+.border-radius-lg {
+  border-radius: 0.5rem; }
+
+.border-top-md {
+  border-top: 0.33333rem; }
+
+.border-radius-md {
+  border-radius: 0.33333rem; }
+
+.border-top-sm {
+  border-top: 0.25rem; }
+
+.border-radius-sm {
+  border-radius: 0.25rem; }
+
+.border-top {
+  border-top: 0.1rem; }
+
+.border-radius {
+  border-radius: 0.1rem; }
+
+.border-bottom-xlg {
+  border-bottom: 1rem; }
+
+.border-radius-xlg {
+  border-radius: 1rem; }
+
+.border-bottom-lg {
+  border-bottom: 0.5rem; }
+
+.border-radius-lg {
+  border-radius: 0.5rem; }
+
+.border-bottom-md {
+  border-bottom: 0.33333rem; }
+
+.border-radius-md {
+  border-radius: 0.33333rem; }
+
+.border-bottom-sm {
+  border-bottom: 0.25rem; }
+
+.border-radius-sm {
+  border-radius: 0.25rem; }
+
+.border-bottom {
+  border-bottom: 0.1rem; }
+
+.border-radius {
+  border-radius: 0.1rem; }
+
+.border-left-xlg {
+  border-left: 1rem; }
+
+.border-radius-xlg {
+  border-radius: 1rem; }
+
+.border-left-lg {
+  border-left: 0.5rem; }
+
+.border-radius-lg {
+  border-radius: 0.5rem; }
+
+.border-left-md {
+  border-left: 0.33333rem; }
+
+.border-radius-md {
+  border-radius: 0.33333rem; }
+
+.border-left-sm {
+  border-left: 0.25rem; }
+
+.border-radius-sm {
+  border-radius: 0.25rem; }
+
+.border-left {
+  border-left: 0.1rem; }
+
+.border-radius {
+  border-radius: 0.1rem; }
+
+.border-right-xlg {
+  border-right: 1rem; }
+
+.border-radius-xlg {
+  border-radius: 1rem; }
+
+.border-right-lg {
+  border-right: 0.5rem; }
+
+.border-radius-lg {
+  border-radius: 0.5rem; }
+
+.border-right-md {
+  border-right: 0.33333rem; }
+
+.border-radius-md {
+  border-radius: 0.33333rem; }
+
+.border-right-sm {
+  border-right: 0.25rem; }
+
+.border-radius-sm {
+  border-radius: 0.25rem; }
+
+.border-right {
+  border-right: 0.1rem; }
+
+.border-radius {
+  border-radius: 0.1rem; }
+
+.circule {
+  border-radius: 100%; }
+
 .margin-xlg-top {
   margin-top: 1rem; }
 

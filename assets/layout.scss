@@ -5,6 +5,7 @@
 $cols: 12;
 $margin: 1rem;
 $padding: 1rem;
+$border: 1rem;
 
 $breakpoint: (
   "xlg": 1400px,
@@ -155,6 +156,34 @@ $sides: (
 
 .font-weight-normal {
   font-weight: normal;
+}
+
+.border-#{'radius'} {
+  border-radius: 5px;
+}
+
+@each $side in $sides {
+  @each $key, $val in $space-breakpoint {
+      .border-#{$side}-#{$key} {
+        border-#{$side}: $border / $val;
+      }
+
+      .border-#{'radius'}-#{$key} {
+        border-radius: $border / $val;
+      }
+  }
+
+  .border-#{$side} {
+    border-#{$side}: $border / 10;
+  }
+
+  .border-#{'radius'} {
+    border-radius: $border / 10;
+  }
+}
+
+.circule {
+  border-radius: 100%;
 }
 
 @each $side in $sides {
