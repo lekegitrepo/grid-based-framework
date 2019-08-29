@@ -861,13 +861,14 @@ table {
     width: 8.33333%;
   }
 }
+
 /* styles framework */
 .background-w {
   background: #fff;
 }
 
 .font-name {
-  font-family: 
+  font-family:
     "Segoe UI",
     Roboto,
     Oxygen-Sans,
