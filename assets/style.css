@@ -359,17 +359,17 @@ button.red-btn:hover {
 }
 
 /* nav media query */
-@media all and (max-width: 1055px){
+@media all and (max-width: 1055px) {
   .home,
   .following,
   .user {
     display: none;
   }
-  
+
   .user-f {
-    width:
+
   }
-  
+
   .hidden-icon {
     display: block;
     padding-left: 8px;
@@ -377,8 +377,7 @@ button.red-btn:hover {
 }
 @media all and (max-width: 795px) {
   .home,
-  .following
-  .user {
+  .following .user {
     display: none;
   }
 
@@ -436,4 +435,4 @@ button.red-btn:hover {
 .hidden {
   position: absolute;
   clip: rect(1px, 1px, 1px, 1px);
-} 
+}

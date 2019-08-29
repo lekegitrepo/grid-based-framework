@@ -21,12 +21,7 @@ $space-breakpoint: (
   "sm": 4
 );
 
-$sides: (
-  "top",
-  "bottom",
-  "left",
-  "right"
-);
+$sides: ("top", "bottom", "left", "right");
 
 .margin {
   margin: $margin;
@@ -158,26 +153,26 @@ $sides: (
   font-weight: normal;
 }
 
-.border-#{'radius'} {
+.border-#{"radius"} {
   border-radius: 5px;
 }
 
 @each $side in $sides {
   @each $key, $val in $space-breakpoint {
-      .border-#{$side}-#{$key} {
-        border-#{$side}: $border / $val;
-      }
+    .border-#{$side}-#{$key} {
+      border-#{$side}: $border / $val;
+    }
 
-      .border-#{'radius'}-#{$key} {
-        border-radius: $border / $val;
-      }
+    .border-#{"radius"}-#{$key} {
+      border-radius: $border / $val;
+    }
   }
 
   .border-#{$side} {
     border-#{$side}: $border / 10;
   }
 
-  .border-#{'radius'} {
+  .border-#{"radius"} {
     border-radius: $border / 10;
   }
 }
@@ -188,9 +183,9 @@ $sides: (
 
 @each $side in $sides {
   @each $key, $val in $space-breakpoint {
-      .margin-#{$key}-#{$side} {
-        margin-#{$side}: $margin / $val;
-      }
+    .margin-#{$key}-#{$side} {
+      margin-#{$side}: $margin / $val;
+    }
   }
   .margin-#{$side} {
     margin-#{$side}: auto;
@@ -199,9 +194,9 @@ $sides: (
 
 @each $side in $sides {
   @each $key, $val in $space-breakpoint {
-      .padding-#{$key}-#{$side} {
-        padding-#{$side}: $padding / $val;
-      }
+    .padding-#{$key}-#{$side} {
+      padding-#{$side}: $padding / $val;
+    }
   }
   .padding-#{$side} {
     padding-#{$side}: auto;
@@ -223,7 +218,7 @@ $sides: (
 
 @each $key, $val in $breakpoint {
   @media all and (max-width: $val) {
-    .display-#{$key}-#{'none'} {
+    .display-#{$key}-#{"none"} {
       display: none;
     }
 
@@ -243,26 +238,13 @@ $white-background: #fff;
   background: $white-background;
 }
 
-$fonts: "Segoe UI",
-Roboto,
-Oxygen-Sans,
-Ubuntu,
-Cantarell,
-"Fira Sans",
-"Droid Sans",
-"Helvetica Neue",
-Helvetica,
-"Hiragino Kaku Gothic Pro",
-Meiryo,
-Arial,
-sans-serif,
-"Apple Color Emoji",
-"Segoe UI Emoji",
-"Segoe UI Symbol";
+$fonts: "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Fira Sans",
+  "Droid Sans", "Helvetica Neue", Helvetica, "Hiragino Kaku Gothic Pro", Meiryo,
+  Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 
 .font-name {
   font-family: $fonts;
-} 
+}
 
 $color-l-grey-text: #a9a0a0;
 
@@ -270,7 +252,7 @@ $color-l-grey-text: #a9a0a0;
   color: $color-l-grey-text;
 }
 
-$color-b-grey-text : #333;
+$color-b-grey-text: #333;
 
 .strong-grey {
   color: $color-b-grey-text;
