@@ -265,10 +265,6 @@ table {
   font-weight: normal;
 }
 
-.border-radius {
-  border-radius: 5px;
-}
-
 .border-top-xlg {
   border-top: 1rem;
 }
@@ -385,10 +381,6 @@ table {
   border-left: 0.1rem;
 }
 
-.border-radius {
-  border-radius: 0.1rem;
-}
-
 .border-right-xlg {
   border-right: 1rem;
 }
@@ -423,10 +415,6 @@ table {
 
 .border-right {
   border-right: 0.1rem;
-}
-
-.border-radius {
-  border-radius: 0.1rem;
 }
 
 .circule {
