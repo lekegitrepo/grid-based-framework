@@ -17,7 +17,8 @@
 }
 
 .hover-icon,
-.hover-logo {
+.hover-logo,
+.user-f {
   align-items: center;
   border-radius: 100%;
   display: flex;
@@ -27,7 +28,8 @@
 }
 
 .hover-icon:hover,
-.hover-logo:hover {
+.hover-logo:hover,
+.user-f:hover {
   background-color: rgb(220, 220, 220);
 }
 
@@ -115,6 +117,10 @@ input {
   padding-right: 5px;
 }
 
+.bar {
+  font-size: 30px;
+}
+
 .nav-menu {
   align-items: center;
   border-radius: 30px;
@@ -133,7 +139,7 @@ input {
 
 main .nav-menu {
   align-items: center;
-  border-radius: 10px;
+  border-radius: 30px;
   height: 40px;
   justify-content: center;
   text-align: center;
@@ -224,6 +230,7 @@ a.foll:hover {
 
 li#default {
   background-color: rgb(220, 220, 220);
+  padding-left: 9px;
 }
 
 .top-right {
@@ -352,9 +359,26 @@ button.red-btn:hover {
 }
 
 /* nav media query */
+@media all and (max-width: 1055px){
+  .home,
+  .following,
+  .user {
+    display: none;
+  }
+  
+  .user-f {
+    width:
+  }
+  
+  .hidden-icon {
+    display: block;
+    padding-left: 8px;
+  }
+}
 @media all and (max-width: 795px) {
   .home,
-  .following {
+  .following
+  .user {
     display: none;
   }
 
@@ -412,4 +436,4 @@ button.red-btn:hover {
 .hidden {
   position: absolute;
   clip: rect(1px, 1px, 1px, 1px);
-}
+} 
