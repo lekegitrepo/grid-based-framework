@@ -801,22 +801,22 @@ table {
 
 .font-name {
   font-family:
-  "Segoe UI",
-  Roboto,
-  Oxygen-Sans, 
-  Ubuntu,
-  Cantarell,
-  "Fira Sans",
-  "Droid Sans",
-  "Helvetica Neue",
-  Helvetica,
-  "Hiragino Kaku Gothic Pro",
-  Meiryo,
-  Arial,
-  sans-serif,
-  "Apple Color Emoji",
-  "Segoe UI Emoji",
-  "Segoe UI Symbol";
+    "Segoe UI",
+    Roboto,
+    Oxygen-Sans, 
+    Ubuntu,
+    Cantarell,
+    "Fira Sans",
+    "Droid Sans",
+    "Helvetica Neue",
+    Helvetica,
+    "Hiragino Kaku Gothic Pro",
+    Meiryo,
+    Arial,
+    sans-serif,
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol";
 }
 
 .light-grey {
