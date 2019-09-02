@@ -309,120 +309,60 @@ table {
   border-bottom: 1rem;
 }
 
-.border-radius-xlg {
-  border-radius: 1rem;
-}
-
 .border-bottom-lg {
   border-bottom: 0.5rem;
-}
-
-.border-radius-lg {
-  border-radius: 0.5rem;
 }
 
 .border-bottom-md {
   border-bottom: 0.33333rem;
 }
 
-.border-radius-md {
-  border-radius: 0.33333rem;
-}
-
 .border-bottom-sm {
   border-bottom: 0.25rem;
-}
-
-.border-radius-sm {
-  border-radius: 0.25rem;
 }
 
 .border-bottom {
   border-bottom: 0.1rem;
 }
 
-.border-radius {
-  border-radius: 0.1rem;
-}
-
 .border-left-xlg {
   border-left: 1rem;
-}
-
-.border-radius-xlg {
-  border-radius: 1rem;
 }
 
 .border-left-lg {
   border-left: 0.5rem;
 }
 
-.border-radius-lg {
-  border-radius: 0.5rem;
-}
-
 .border-left-md {
   border-left: 0.33333rem;
-}
-
-.border-radius-md {
-  border-radius: 0.33333rem;
 }
 
 .border-left-sm {
   border-left: 0.25rem;
 }
 
-.border-radius-sm {
-  border-radius: 0.25rem;
-}
-
 .border-left {
   border-left: 0.1rem;
-}
-
-.border-radius {
-  border-radius: 0.1rem;
 }
 
 .border-right-xlg {
   border-right: 1rem;
 }
 
-.border-radius-xlg {
-  border-radius: 1rem;
-}
-
 .border-right-lg {
   border-right: 0.5rem;
-}
-
-.border-radius-lg {
-  border-radius: 0.5rem;
 }
 
 .border-right-md {
   border-right: 0.33333rem;
 }
 
-.border-radius-md {
-  border-radius: 0.33333rem;
-}
-
 .border-right-sm {
   border-right: 0.25rem;
 }
 
-.border-radius-sm {
-  border-radius: 0.25rem;
-}
-
 .border-right {
   border-right: 0.1rem;
-}
-
-.border-radius {
-  border-radius: 0.1rem;
 }
 
 .circule {
@@ -860,10 +800,23 @@ table {
 }
 
 .font-name {
-  font-family: "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Fira Sans",
-    "Droid Sans", "Helvetica Neue", Helvetica, "Hiragino Kaku Gothic Pro",
-    Meiryo, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-    "Segoe UI Symbol";
+  font-family:
+  "Segoe UI",
+  Roboto,
+  Oxygen-Sans, 
+  Ubuntu,
+  Cantarell,
+  "Fira Sans",
+  "Droid Sans",
+  "Helvetica Neue",
+  Helvetica,
+  "Hiragino Kaku Gothic Pro",
+  Meiryo,
+  Arial,
+  sans-serif,
+  "Apple Color Emoji",
+  "Segoe UI Emoji",
+  "Segoe UI Symbol";
 }
 
 .light-grey {
