@@ -80,6 +80,7 @@ This project was built using these technologies.
 -   Github: [@lekegitrepo](https://github.com/lekegitrepo)
 -   Twitter: [@leketemi](https://twitter.com/leketemi)
 -   Linkedin: [linkedin](https://www.linkedin.com/in/adeleke-temitayo-a69125188/)
+-   Email: [mailadeleketemitayo@gmail.com](mailadeleketemitayo@gmail.com)
 
 <br />
 <br />
@@ -105,22 +106,3 @@ This project was built using these technologies.
 [issues-url]: https://github.com/lekegitrepo/grid-based-framework
 [product-screenshot]: img/screenshot.PNG
 
-# grid-based-framework
-
-This project is a clone of Pinterest's users page which was built with the grid based framework.
-
-## Live Version
-
-<a href=""> Pinterest Clone / Live Version</a>
-
-
-
-## Built With
-
-* HTML5
-* CSS3
-
-## Authors - click on the links below to see the authors' github
-
-* <a href="https://github.com/lekegitrepo"> Github: Adeleke Temitayo</a>
-* <a href="https://github.com/thsvr"> Github: Thaís Vieira Azevedo</a>
